@@ -6,3 +6,4 @@
 |--------|
 |[Taglar](https://github.com/RealBerk/php-ders-notlari/blob/main/open_tag.md)|
 |[String Fonksiyonlar](https://github.com/RealBerk/php-ders-notlari/blob/main/string_function.md)|
+|[Dizeler](https://github.com/RealBerk/php-ders-notlari/blob/main/array.md)|

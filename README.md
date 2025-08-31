@@ -1,2 +1,3 @@
-# php-ders-notlari
-Bu repo'da php öğrenirken aldığım notları yazıyorum, umarım işinize yarar şimdiden iyi dersler dilerim hepinize.
+> Hazırlanma Tarihi : 31.08.2025
+# PHP Ders Notları
+*Merhaba arkadaşlar bu repomda php öğrenirken tuttuğum notları sizinle paylaşacağım, benim gibi php öğrenmeye yeni başlayan arkadaşlar için yararlı olacaktır umarım beğenirsiniz şimdiden herkese iyi dersler dilerim :)*

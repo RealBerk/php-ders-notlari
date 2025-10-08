@@ -39,3 +39,29 @@ echo "Merhaba ".$ornek2['php'];
 
 * "özel index değerimiz" => "atama yapılacak değer"
 > Bu şekilde özel olarak index değeri atayabiliriz dizemizdeki elemanlara.
+
+----
+# Çoklu Dizi Tanımlama
+```php
+// Her elemanın kendine özgü dizisi olmuş oluyor. 
+// Meyveler adlı dizi de 0.index'den başlıyor 
+// İsimler adlı dizi de 0.index'den başlıyor 
+$bilgiler = array( 
+    "Meyveler"=>array("Armut","Elma","Pancar"), 
+    "İsimler"=>array("Mehmet","Ali","Kerim") 
+); 
+
+
+// Meyveler adlı array'e bir array daha tanımlayıp onun içerisine de meyveleri tanımladık. 
+// Arrayı string gibi doğrudan bastıramayacağımızdan ekrana aşağıdaki gibi bir yöntem izledik. 
+echo $bilgiler['Meyveler'][0]; // Array içindeki arrayı ekrana yazdırmamız için gereken kod aynen bu şekilde. 
+
+
+// Array içinde array içinde array'de tanımlanabilmekte 
+$meyveler = array( 
+  "Elmalar"=>array("Elma"=>array("Kırmızı Elma","Yeşil Elma"),"Pancar") 
+);
+
+echo $meyveler['Elmalar']['Elma'][0]; // Kırmızı Elma 
+echo $meyveler['Elmalar']['Elma'][1]; // Yeşil Elma 
+```
